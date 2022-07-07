@@ -6,6 +6,7 @@ var cityInput = document.querySelector('input[name="city-input"]');
 var searchBtn = document.querySelector("#search-city");
 var searchHist = localStorage.getItem("searchedCity");
 var userInput = cityInput.value;
+var searchList = document.querySelector("#search-list");
 
 searchBtn.addEventListener("click", function() {
     localStorage.setItem("searchedCity", cityInput.value);
@@ -16,10 +17,12 @@ searchBtn.addEventListener("click", function() {
 // function to create a button for each searched city:
 
 function newCity() { 
-var newCityBtn;
-var cityBtn = document.createElement(newCityBtn);
-cityBtn.textContent = searchHist.value;
-// document.body.appendChild(searchHist.value);
+    var newCityBtn;
+    var cityBtn = document.createElement("button");
+    var searchVal = searchHist.value;
+    cityBtn.textContent = searchVal;
+    searchList.appendChild(cityBtn);
+    console.log(searchVal);
 }
 
 // section1 card:
