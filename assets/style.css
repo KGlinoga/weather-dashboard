@@ -9,6 +9,10 @@ body {
 
 /* styling and flexing of boxes, ID's and classes */
 
+.container {
+    display: flex;
+
+}
 
 .page-title {
     text-align: center;

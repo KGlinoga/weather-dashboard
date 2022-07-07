@@ -18,6 +18,8 @@ searchBtn.addEventListener("click", function() {
     //h2 that updates with CURRENT CITY AND CURRENT DATE
     // p tags that update with that city's current Temp, Wind, Humidity, and UVI
         // p tag that displays the UVI value's background color updates depending on the UVI severity (if statements) 
+
+
         
 // Section2:
     //5 cards that fill in each day's forecast in abovementioned City, starting the day AFTER Current Day
