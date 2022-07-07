@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <title>Weather or Not, Here I come</title>
 </head>
 <body>
+<!-- Need elements for:
+- Header: Weather Dashboard
+- aside (flex container): h2 Search for a City
+    - input type:"text" (search field that accepts strings)
+    - Search History (maybe an h2??)
+        - buttons that append from searches saved in local storage, appended via JS
+- main: h2 Current City / Current Date 
+    p: Temp
+    p: Wind speed
+    p: Humidity:
+    p: UV index
+        p: display w/ background color coded based on severity of UVI, display text of UVI
+
+- section (flex container): 
+    - h3: 5-Day Forecast: 
+    - card x 5 that update dynamically from JS:
+        - h3 Date (current.day+1, current.day+2, etc.)
+        - weather icon
+        - p: temp
+        - p: wind
+        - p: Humidity 
+-->
+
+
     <script src="./assets/script.js"></script>
 </body>
 </html>
