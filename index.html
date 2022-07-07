@@ -14,13 +14,13 @@
     <header>
         <h1 class="page-title">Weather Dashboard</h1>
     </header>
-    <main class="container themed-grid-col">
+    <main class="container my-5">
 <!-- - aside (flex container): h2 Search for a City 
     - input type:"text" (search field that accepts strings)
     - Search History (maybe an h2??)
         - buttons that append from searches saved in local storage, appended via JS --> 
 
-        <aside class="col-4 search-title">
+        <aside class="col-12 col-md-4 col-xl-3 search-title">
             <h3 class="">Search for a City</h2>
             <input type="text" class="col-12">
             <section class="search-history col-12" id="city-buttons">search history buttons below</section>
@@ -35,12 +35,12 @@
     p: UV index
         p: display w/ background color coded based on severity of UVI, display text of UVI -->
 
-        <section class="col-8 current-display">
-            <h2>Current City (Current Date)</h2>
-            <p>Temperature:</p>
-            <p>Wind:</p>
-            <p>Humidity:</p>
-            <p>UV index:</p>
+        <section class="col-12 col-md-8 col-xl-9 current-display">
+            <h2 id="current-city">Current City</h2> <h2 id="current-date">(Current Date)</h2>
+            <p id="current-temp">Temperature:</p>
+            <p id="current-wind">Wind:</p>
+            <p id="current-humidity">Humidity:</p>
+            <p id="current-uvi">UV index:</p>
         </section>
 <!-- 
 - section2 (flex container): 
