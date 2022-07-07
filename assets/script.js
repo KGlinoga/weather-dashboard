@@ -10,9 +10,17 @@ var userInput = cityInput.value;
 searchBtn.addEventListener("click", function() {
     localStorage.setItem("searchedCity", cityInput.value);
     console.log(cityInput.value);
+    newCity();
 });
 
+// function to create a button for each searched city:
 
+function newCity() { 
+var newCityBtn;
+var cityBtn = document.createElement(newCityBtn);
+cityBtn.textContent = searchHist.value;
+// document.body.appendChild(searchHist.value);
+}
 
 // section1 card:
     //h2 that updates with CURRENT CITY AND CURRENT DATE
