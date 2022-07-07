@@ -1,5 +1,4 @@
 * {
-    margin: 0;
 }
 
 body {
@@ -10,6 +9,9 @@ body {
 
 /* styling and flexing of boxes, ID's and classes */
 
+.container {
+}
+
 .page-title {
     text-align: center;
     background-color: blue;
@@ -19,9 +21,22 @@ body {
 .search-title {
     border: 1px solid black;
     padding: 1em;
+    margin: 1em;
 }
 
 .search-history {
     border: 1px solid black;
-    
+
+}
+
+.current-display {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.five-day {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
 }
