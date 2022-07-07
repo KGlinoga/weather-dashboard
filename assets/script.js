@@ -20,7 +20,7 @@ function newCity() {
     var newCityBtn;
     var cityBtn = document.createElement("button");
     var searchVal = searchHist.value;
-    cityBtn.textContent = localStorage.getItem("searchedCity");
+    cityBtn.textContent = searchHist;
     searchList.appendChild(cityBtn);
 }
 
