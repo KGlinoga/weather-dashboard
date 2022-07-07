@@ -1,9 +1,18 @@
-console.log("hello");
-
 // input form for users to search for a city
     // saving searches to local storage
     // appending searches in local storage to individual buttons
     //event listener for button clicks that search the app for that city
+var cityInput = document.querySelector('input[name="city-input"]');
+var searchBtn = document.querySelector("#search-city");
+var searchHist = localStorage.getItem("searchedCity");
+var userInput = cityInput.value;
+
+searchBtn.addEventListener("click", function() {
+    localStorage.setItem("searchedCity", cityInput.value);
+    console.log(cityInput.value);
+});
+
+
 
 // section1 card:
     //h2 that updates with CURRENT CITY AND CURRENT DATE
