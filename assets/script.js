@@ -20,9 +20,8 @@ function newCity() {
     var newCityBtn;
     var cityBtn = document.createElement("button");
     var searchVal = searchHist.value;
-    cityBtn.textContent = searchVal;
+    cityBtn.textContent = localStorage.getItem("searchedCity");
     searchList.appendChild(cityBtn);
-    console.log(searchVal);
 }
 
 // section1 card:
