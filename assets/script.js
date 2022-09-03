@@ -27,9 +27,7 @@ function newCity() {
 
 // section1 card:
     //h2 that updates with CURRENT CITY AND CURRENT DATE
-    
-    
-    
+        
     var currentDateDisplay = document.querySelector("#current-date");
     var currentDate = moment().format("MMMM DD, YYYY");
     currentDateDisplay.textContent = currentDate;
